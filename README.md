@@ -4,6 +4,28 @@ Made for HelpGrandmaOut; Hackclub
 **Instructions**
 Hello! Welcome to "CloudSky". CloudSky is a song that I created with code using the software "Strudel." I learned how to use this tool through the Hack Club program "Aria" and decided to create another project on it for another program. The prompts I was given were; "A hard size cap for your category: about 500 lines of code or 10 components, The README is readable by a non-programmer, Only two colors in the whole visual output." Moreover, how the code works is whenever it says "$: note" that means the letters and numbers represent the note in music alongside the octave, if it says "$: sound" that means its a sound for a drum/drum part, ".sound("")" is what sound/ instrument should be used for the code written in that line(s), "pan(0).color("")" just changes the colour of the box that shows what sound is currently playing. Anyways, **To use it:** click on the link below and it should take you to the code. In order to play it, click anywhere so the typing line appears and press ctrl + enter, to stop ctrl + "." If you want to add on or change or learn how to use strudel I advise that you go through the Strudel tutorial which you can do by clicking "learn" in the top right corner when you go on my song. Enjoy!
 
+[CloudSky (1).mp3](https://github.com/user-attachments/files/35439244/CloudSky.1.mp3)
+
+CODE:
+/*
+@title Cloud Sky
+@by izaan.f: Published: Nov. 14 2026
+*/
+LEAD$: note("<[e5 g5]*4  [c5 e5]*4  [a4 c5]*4  [c5 e5]*4 >").sound("sawtooth, triangle").pan(0).color("cyan")
+.room(2)
+VARIETY$: note("<e5 c5 a4 c5, g5 e5 c5 e5, c5 a4 f4 a4 >").sound("gm_blown_bottle,gm_voice_oohs:2,gm_orchestral_harp").pan(0).color("magenta")
+.room(1.5)
+
+DRUMS$: sound("< lt sd mt@0.5 mt@0.5*2 sd, bd bd bd bd> *4").pan(0).color("cyan")
+.delay(0.25)
+
+BASS$: note("<a2 c3 g3 e3>*2").sound("gm_acoustic_bass ,saw").pan(0).color("magenta")
+.lpf(5000)
+
+Screenshot of Code:
+<img width="1359" height="673" alt="Screenshot 2026-11-25 195937" src="https://github.com/user-attachments/assets/3fb8c2f6-350b-4f9c-b236-f0a114ddb419" />
+
 [CloudSky](https://strudel.cc/#Ly8gUHJlYmFrZSBzY3JpcHQKLy8KLy8gVGhpcyBpcyBjb2RlIHRoYXQgaXMgbG9hZGVkIGJlZm9yZSB5b3VyIHBhdHRlcm4gaXMgcnVuLgovLyBZb3UgY2FuIHVzZSBpdCB0byBkZWZpbmUgY3VzdG9tIGZ1bmN0aW9ucyB0byB1c2UgaW4gYW55IHBhdHRlcm4uCi8vIAovLyBUaGlzIGlzIGFuIGluaXRpYWwgZXhhbXBsZSBzY3JpcHQuIFlvdSBjYW4gZWRpdCBpdCB0byBhZGQgCi8vIHlvdXIgb3duIGZ1bnRpb25zLgovLwovLyBUbyB1c2UgYSBzY3JpcHQgc2hhcmVkIGJ5IHNvbWUgb3RoZXIgdXNlciB5b3UgY2FuIHVzZQovLyB0aGUgaW1wb3J0LWJ1dHRvbiBvciBwYXN0ZSB0aGUgc2NyaXB0IGluIHRoaXMgZWRpdG9yLgoKY29uc3QgcmF0Y2hldCA9IHJlZ2lzdGVyKCdyYXRjaGV0JywgKHBhdCkgPT4gcGF0LnNvbWV0aW1lcyhwbHkoMikpKQoKLyoKQHRpdGxlIENsb3VkIFNreQpAYnkgaXphYW4uZjogUHVibGlzaGVkOiBOb3YuIDE0IDIwMjYKKi8KTEVBRCQ6IG5vdGUoIjxbZTUgZzVdKjQgIFtjNSBlNV0qNCAgW2E0IGM1XSo0ICBbYzUgZTVdKjQgPiIpLnNvdW5kKCJzYXd0b290aCwgdHJpYW5nbGUiKS5wYW4oMCkuY29sb3IoImN5YW4iKQoucm9vbSgyKQpWQVJJRVRZJDogbm90ZSgiPGU1IGM1IGE0IGM1LCBnNSBlNSBjNSBlNSwgYzUgYTQgZjQgYTQgPiIpLnNvdW5kKCJnbV9ibG93bl9ib3R0bGUsZ21fdm9pY2Vfb29oczoyLGdtX29yY2hlc3RyYWxfaGFycCIpLnBhbigwKS5jb2xvcigibWFnZW50YSIpCi5yb29tKDEuNSkKCkRSVU1TJDogc291bmQoIjwgbHQgc2QgbXRAMC41IG10QDAuNSoyIHNkLCBiZCBiZCBiZCBiZD4gKjQiKS5wYW4oMCkuY29sb3IoImN5YW4iKQouZGVsYXkoMC4yNSkKCkJBU1MkOiBub3RlKCI8YTIgYzMgZzMgZTM%2BKjIiKS5zb3VuZCgiZ21fYWNvdXN0aWNfYmFzcyAsc2F3IikucGFuKDApLmNvbG9yKCJtYWdlbnRhIikKLmxwZig1MDAwKQoKCgoK)
 
 [Strudel Tutorial](https://strudel.cc/workshop/getting-started/)
+
