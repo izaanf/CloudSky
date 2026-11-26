@@ -11,8 +11,10 @@ CODE:
 @title Cloud Sky
 @by izaan.f: Published: Nov. 14 2026
 */
+
 LEAD$: note("<[e5 g5]*4  [c5 e5]*4  [a4 c5]*4  [c5 e5]*4 >").sound("sawtooth, triangle").pan(0).color("cyan")
 .room(2)
+
 VARIETY$: note("<e5 c5 a4 c5, g5 e5 c5 e5, c5 a4 f4 a4 >").sound("gm_blown_bottle,gm_voice_oohs:2,gm_orchestral_harp").pan(0).color("magenta")
 .room(1.5)
 
